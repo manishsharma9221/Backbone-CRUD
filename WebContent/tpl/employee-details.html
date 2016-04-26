@@ -1,0 +1,28 @@
+<div class="form-left-col">
+    <label>Id:</label>
+    <input id="employeeId" name="id" type="text" value="<%= id %>" disabled />
+
+    <label>Name:</label>
+    <input type="text" id="name" name="name" value="<%= name %>" required/>
+
+    <label>Grade:</label>
+    <input type="text" id="grade" name="grade" value="<%= grade %>"/>
+
+    <label>Country:</label>
+    <input type="text" id="country" name="country" value="<%= country %>"/>
+
+    <label>Region:</label>
+    <input type="text" id="region" name="region"  value="<%= region %>"/>
+
+    <label>Year:</label>
+    <input type="text" id="year" name="year"  value="<%= year %>"/>
+
+    <button class="save">Save</button>
+    <button class="delete">Delete</button>
+</div>
+
+<div class="form-right-col">
+    
+    <label>Notes:</label>
+    <textarea id="description" name="description"><%= description %></textarea>
+</div>
